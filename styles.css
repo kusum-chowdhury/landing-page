@@ -9,25 +9,25 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
-    background-color: white;
+    padding: 2rem;
+    background-color: #ffd803;
 }
 .logo {
   font-size: 24px;
-  color: #D96941;
+  color: #0e172c;
   margin-left: 8rem;
 }
 header ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    gap: 2rem;
+    gap: 1rem 2rem;
     margin-right: 8rem;
 }
 
 header a {
     text-decoration: none;
-    color: #D96941;
+    color: #0e172c;
     font-size: 18px;
 }
 
@@ -35,11 +35,11 @@ header a {
 /*Hero section*/  
 
 #hero {
-    background-color: #193C40;
+    background-color: #fffffe;
     display: flex;
     justify-content: space-evenly;
     gap: 4rem;
-    padding: 6rem;
+    padding: 8rem 0;
 }
 .hero-text {
     width: 400px;
@@ -47,44 +47,55 @@ header a {
 #hero h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: #D96941;
+    color: #272343;
+    padding-bottom: 1rem;
 }
 .hero-text p {
-    color: #D96941;
+    color: #2d334a;
     font-size: 18px;
+    padding-bottom: 0.5rem;
 }
 button {
-    background-color: #2E5902;
-    padding: 5px 30px;
+    background-color: #ffd803;
+    padding: 1rem 3rem;
     border-radius: 5px;
     border: none;
+    font-size: 0.9rem;
     font-weight: bold;
-    color: #F9FAF8;
+    color: #272343;
     margin-top: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .img {
-    background-color: grey;
-   width: 400px;
-   height: 220px;
+   width: 500px;
+   height: 250px;
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 1rem;
+   border: 0.5rem solid #bae8e8;
+   border-radius: 20px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.25);
 }
 
 
 
 /*Info section*/  
 
-
+.info-section {
+    background-color: #e3f6f5;
+    padding: 4rem 0;
+}
 #info {
     display: flex;
     justify-content: center;
     gap: 2rem;
+
 }
 h2 {
     text-align: center;
     margin-bottom: 2rem;
+    color: #272343;
 }
 .info-section {
     margin: 6rem 0;
@@ -92,18 +103,21 @@ h2 {
 .box {
     width: 200px;
     height: 200px;
-    border: 2px solid #2E5902;
+    border: 4px solid #fffffe;
     border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .box-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #2d334a;
 }
 .text {
     text-align: center;
     width: 200px;
     margin-top: 5px;
+    color: #2d334a;
 }
 
 
@@ -111,14 +125,14 @@ h2 {
 
 
 .quote {
-    background-color: #2E5902;
-    padding: 6rem 15rem;
+    background-color: #272343;
+    padding: 8rem 15rem;
 }
 
 
 .quote p {
     font-size: 36px;
-    color: white;
+    color: #fffffe;
     font-style: italic;
     font-weight: lighter;
 }
@@ -129,6 +143,7 @@ h2 {
     float: right;
     margin-top: 2rem;
     margin-right: 6rem;
+    color: #fffffe;
 }
 
 
@@ -138,29 +153,33 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 6rem 0;
 }
 
 .bluearea {
     display: flex;
-    background-color: #193C40;
+    background-color: #e3f6f5;
     padding: 2rem;
     border-radius: 10px;
     margin: 4rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .bluearea button {
-    border: 1px solid #F9FAF8;
+    border: 1px solid #fffffe;
     margin-left: 2rem;
+    background-color: #272343;
+    color: #fffffe;
 }
 .textarea {
-    color: #F9FAF8;
+    color: #2d334a;
 }
 
 /*foooter*/
 footer {
     text-align: center;
     padding: 1.5rem;
-    background-color: #193C40;
-    color: #F9FAF8;
+    background-color: #fffffe;
+    color: #2d334a;
 }
 
 
