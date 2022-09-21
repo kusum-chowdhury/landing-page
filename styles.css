@@ -11,6 +11,7 @@ header {
     justify-content: space-between;
     padding: 2rem;
     background-color: #ffd803;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .logo {
   font-size: 24px;
@@ -45,10 +46,11 @@ header a {
     width: 400px;
 }
 #hero h1 {
-    font-size: 48px;
+    font-size: 3.4rem;
     font-weight: bolder;
     color: #272343;
     padding-bottom: 1rem;
+    font-family: 'Inter', sans-serif;
 }
 .hero-text p {
     color: #2d334a;
@@ -64,6 +66,9 @@ button {
     font-weight: bold;
     color: #272343;
     margin-top: 10px;
+   
+}
+button:hover {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .img {
